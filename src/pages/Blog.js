@@ -90,7 +90,7 @@ const LeftContainer = () => {
 
   const LeftContainer2 = () => {
     return (
-<div className="careersSection">
+<div className="careersSections">
     <div className='rightpart'>
         <img className='img1' src={casualmeet}/>
     </div>
