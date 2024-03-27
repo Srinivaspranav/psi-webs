@@ -133,7 +133,7 @@ const LeftContainer = () => {
                     <p className='heading2'>
                      <span> Duration</span> And
                     </p>
-                    <p className='heading2' style={{marginTop:"-2.5%"}}>
+                    <p className='heading2' style={{marginTop:"-1.5%"}}>
                      <span> Application Process</span>
                     </p>
                     <p className='subheading rightpart2'>
@@ -142,9 +142,9 @@ const LeftContainer = () => {
                     {/* <button><strong>Apply Now ---></strong></button> */}
                     <div className='card'>
                       <form>
-                        <label for="fname">First name:</label><br/>
-                        <input type="text" id="fname" name="fname"/><br/>
-                        <label for="lname">Last name:</label><br/>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"/>
+                        <label for="lname">Last name:</label>
                         <input type="text" id="lname" name="lname"/>
                       </form>
                     </div>

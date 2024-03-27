@@ -6,6 +6,8 @@ import Careers from './pages/Careers';
 import Contactus from './pages/Contactus';
 import Signup from './pages/SignUp';
 import Blog from './pages/Blog';
+import Blog1 from './pages/Blog1';
+import Blog2 from './pages/Blog2';
 
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
                     <Route path="/contact" index element={<Contactus />} />
                     <Route path="/signup"  index element={<Signup />} />
                     <Route path="/blog" index element={<Blog />} />
+                    <Route path="/blog1" index element={<Blog1 />} />
+                    <Route path="/blog2" index element={<Blog2 />} />
 
                 </Routes>
             </BrowserRouter>
