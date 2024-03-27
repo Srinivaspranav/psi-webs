@@ -6,6 +6,7 @@ import Careers from './pages/Careers';
 import Contactus from './pages/Contactus';
 import Signup from './pages/SignUp';
 import Blog from './pages/Blog';
+import About from './pages/About';
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path="/contact" index element={<Contactus />} />
                     <Route path="/signup"  index element={<Signup />} />
                     <Route path="/blog" index element={<Blog />} />
+                    <Route path="/about" index element={<About />} />
 
                 </Routes>
             </BrowserRouter>

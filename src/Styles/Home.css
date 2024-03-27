@@ -28,7 +28,27 @@
 
   }
  
- 
+  .slideContainer {
+    width: 100vh;
+    max-width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carouselContainer {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .carouselImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .content{
     color: white;
     font-size: 5rem;

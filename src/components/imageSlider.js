@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from '../images/Home/Slider.png';
 
 function ImageSlider({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,7 +26,7 @@ function ImageSlider({ images }) {
             position: 'absolute',
             top: 0,
             left: 0,
-            background: `url(${image}) center/cover no-repeat`,
+            background: `url(${Image}) center/cover no-repeat`,
             textAlign: 'center',
             color: '#fff',
             fontSize: '2rem',

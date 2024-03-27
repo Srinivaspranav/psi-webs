@@ -1,6 +1,9 @@
 // Home.js
-import React, { Component,useState } from 'react';
+import React, { Component,useState,useEffect } from 'react';
 import NavBar from '../components/NavBar';
+import Carousel from 'react-carousel';
+import imageSlider from '../components/imageSlider';
+
 import '../Styles/Home.css';
 import Earth from '../images/Home/Earth.jpg';
 import Mobile from '../images/Home/Mobile1.png';
@@ -13,6 +16,7 @@ import Insight from '../images/Home/Insights.png';
 import robo from '../images/Careers/robo.jpeg';
 import building from '../images/Careers/building.jpeg';
 import security from '../images/Home/Security.png';
+import slide from '../images/Home/Slider.png';
 
 const SliderContainer = () => {
   return (
@@ -336,6 +340,22 @@ const Insights = () => {
 
 
 }
+const HomeSlider = () => (
+
+    <Carousel showThumbs={false} autoPlay={true} infiniteLoop interval={2000} showStatus={false} className='carouselContainer'
+    style={{width:'100vh'}}>
+      <div key="slide1">
+        <img alt="Slide 1" src={slide} className="carouselImage" />
+      </div>
+      <div key="slide2">
+        <img alt="Slide 2" src={Service1} className="carouselImage" />
+      </div>
+      <div key="slide3">
+        <img alt="Slide 3" src={Service2} className="carouselImage" />
+      </div>
+    </Carousel>
+
+);
 class Home extends Component {
   render() {
     return (
@@ -346,6 +366,8 @@ class Home extends Component {
         <Provide />
         <Featured />
         <Careers />
+        {/* <HomeSlider /> */}
+        <imageSlider />
         <Insights />
       </div>
     );

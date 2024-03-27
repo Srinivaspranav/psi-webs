@@ -1,0 +1,22 @@
+.sliderContent {
+    position: absolute; /* Ensures content stays within the carousel slide */
+    top: 50%; /* Positions content vertically at the center */
+    transform: translateY(-50%); /* Adjusts content position relative to its height */
+    color: white;
+    text-align: center;
+  }
+  
+  .sliderContent p {
+    font-size: 2.5rem; /* Adjust font size as desired (avoid excessively large values) */
+    margin-bottom: 1rem; /* Adjust spacing between paragraphs */
+  }
+  
+  .sliderContent button {
+    margin-top: 4rem; /* Adjust spacing between button and paragraph */
+    background-color: #4DB4FF;
+    border: none;
+    padding: 1rem; /* Add some padding for better button appearance */
+    height: 3rem; /* Adjust button height */
+    width: 12rem; /* Adjust button width */
+    cursor: pointer; /* Indicates clickable element */
+  }
