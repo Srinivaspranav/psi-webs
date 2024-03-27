@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import NavBar from '../components/NavBar';
 import "../Styles/Blog.css"
 import coverq from '../images/Blog1/cover.png';
-import sunrise from "../images/Blog1/first.png"
-import tourist from "../images/Blog1/second.png"
-import desert from "../images/Blog1/last.png"
+import sunrise from "../images/Blog1/first.png";
+import tourist from "../images/Blog1/second.png";
+import desert from "../images/Blog1/last.png";
 
 
 const SliderContainer = () => {
